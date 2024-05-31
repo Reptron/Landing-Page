@@ -4,10 +4,5 @@ title: About Me
 ---
 <h1>{{ page.title }}</h1>
 <body>
-  <p>My name is Rohan Samuel and I am a second year at Heriot-Watt studying Computer Science.</p>
+  <p>My name is Rohan Samuel and I am a Heriot-Watt graduate with a Bachelors in Computer Science.</p>
 </body>
-<ul class="posts">
-  {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
